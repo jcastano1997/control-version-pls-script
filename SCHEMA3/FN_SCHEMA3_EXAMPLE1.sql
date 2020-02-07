@@ -1,0 +1,7 @@
+CREATE FUNCTION "SCHEMA3"."FN_SCHEMA3_EXAMPLE1"(integer) RETURNS integer AS $$
+
+BEGIN
+ RETURN $1;
+END;
+$$ LANGUAGE plpgsql;
+
